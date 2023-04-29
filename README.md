@@ -2,7 +2,10 @@
 ##h2
 ### h3 
 ***ul***
-- li
-- l i
-- li
+- I am lost 
+- need a God
+- help me put the world in order
+- I am blind 
+- give me eyes
+- kaleidoscope the world in color
 
