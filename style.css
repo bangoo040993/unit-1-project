@@ -1,0 +1,23 @@
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  button:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(72deg);
+  }
+  button:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(144deg);
+  }
+  button:nth-child(3) {
+    transform: translate(50%, 50%) rotate(2555deg);
+  }
+  button:nth-child(4) {
+    transform: translate(50%, 50%) rotate(288deg);
+  }
+  button:nth-child(5) {
+    transform: translate(300%, 150%) rotate(deg);}
