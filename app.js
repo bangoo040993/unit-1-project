@@ -30,7 +30,7 @@ function compareChoices() {
     } else if (player.currentChoice === "Covenant") {
         if (computer.currentChoice === "Marine") {
             return "You win!";
-        } else if (computer.currentChoice === "Precusor") {
+        } else if (computer.currentChoice === "Precursor") {
             return "You win!";
         } else {
             return "Computer wins!";
@@ -46,12 +46,12 @@ function compareChoices() {
     } else if (player.currentChoice === "Forerunner") {
         if (computer.currentChoice === "Covenant") {
             return "You win!";
-        } else if (computer.currentChoice === "Precusor") {
+        } else if (computer.currentChoice === "Precursor") {
             return "You win!";
         } else {
             return "Computer wins!";
         }
-    } else if (player.currentChoice === "Precusor") {
+    } else if (player.currentChoice === "Precursor") {
         if (computer.currentChoice === "Marine") {
             return "You win!";
         } else if (computer.currentChoice === "Flood") {
