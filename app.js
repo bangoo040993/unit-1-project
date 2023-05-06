@@ -1,4 +1,4 @@
-//alert("dog");
+//alert("dawg");
 const choices = ["Marine", "Covenant", "Flood", "Forerunner", "Precursor"]
 
 //computer choices  
@@ -21,23 +21,23 @@ function compareChoices() {
         return "It's a tie!";
     } else if (player.currentChoice === "Marine") {
         if (computer.currentChoice === "Flood") {
-            return "You win! ";
+            return "You win!";
         } else if (computer.currentChoice === "Forerunner") {
-            return "You win! ";
+            return "You win!";
         } else {
             return "Computer wins! ";
         }
     } else if (player.currentChoice === "Covenant") {
         if (computer.currentChoice === "Marine") {
-            return "You win! ";
-        } else if (computer.currentChoice === "Precursor") {
+            return "You win!";
+        } else if (computer.currentChoice === "Precusor") {
             return "You win!";
         } else {
             return "Computer wins!";
         }
     } else if (player.currentChoice === "Flood") {
         if (computer.currentChoice === "Covenant") {
-            return "You win! ";
+            return "You win!";
         } else if (computer.currentChoice === "Forerunner") {
             return "You win!";
         } else {
@@ -46,16 +46,16 @@ function compareChoices() {
     } else if (player.currentChoice === "Forerunner") {
         if (computer.currentChoice === "Covenant") {
             return "You win!";
-        } else if (computer.currentChoice === "Precursor") {
+        } else if (computer.currentChoice === "Precusor") {
             return "You win!";
         } else {
             return "Computer wins!";
         }
-    } else if (player.currentChoice === "Precursor") {
+    } else if (player.currentChoice === "Precusor") {
         if (computer.currentChoice === "Marine") {
-            return "You win! ";
-        } else if (computer.currentChoice === "Flood") {
             return "You win!";
+        } else if (computer.currentChoice === "Flood") {
+            return "You win! ";
         } else {
             return "Computer wins!";
         }
@@ -66,8 +66,7 @@ function compareChoices() {
 
 // display game result
 function displayResult(result) {
-    const resultElement =
-    document.getElementById = document.getElementById("result");
+    const resultElement = document.getElementById("result");
     resultElement.innerHTML = result;
 }
 
@@ -83,29 +82,29 @@ marineButton.addEventListener ("click", function() {
     player.currentChoice = "Marine";
     computer.currentChoice = computerChooses();
     const result = compareChoices();
-    displayResult("computer chose ${computer.currentChoice}. ${result}")
-})
+    displayResult(`computer chose ${computer.currentChoice}. ${result}`)
+});
 covenantButton.addEventListener ("click", function() {
     player.currentChoice = "Covenant";
     computer.currentChoice = computerChooses();
     const result = compareChoices();
-    displayResult("computer chose ${computer.currentChoice}. ${result}")
-})
+    displayResult(`computer chose ${computer.currentChoice}. ${result}`)
+});
 floodButton.addEventListener ("click", function() {
     player.currentChoice = "Flood";
     computer.currentChoice = computerChooses();
     const result = compareChoices();
-    displayResult("computer chose ${computer.currentChoice}. ${result}")
-})
+    displayResult(`computer chose ${computer.currentChoice}. ${result}`)
+});
 forerunnerButton.addEventListener ("click", function() {
     player.currentChoice = "Forerunner";
     computer.currentChoice = computerChooses();
     const result = compareChoices();
-    displayResult("computer chose ${computer.currentChoice}. ${result}")
-})
+    displayResult(`computer chose ${computer.currentChoice}. ${result}`)
+});
 precursorButton.addEventListener ("click", function() {
     player.currentChoice = "Precursor";
     computer.currentChoice = computerChooses();
     const result = compareChoices();
-    displayResult("computer chose ${computer.currentChoice}. ${result}")
-})
+    displayResult(`computer chose ${computer.currentChoice}. ${result}`)
+});

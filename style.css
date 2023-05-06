@@ -1,0 +1,46 @@
+.circle-container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin: -60px;
+  border-radius: none;
+  font-size: 16px;
+  text-align: center;
+  line-height: 120px;
+  border: none;
+  cursor: pointer;
+}
+
+#Marine{
+  transform: rotate(0deg) translate(340px) rotate(0deg);
+}
+#Covenant{
+  transform: rotate(72deg) translate(340px) rotate(-72deg);
+}
+#Flood{
+  transform: rotate(144deg) translate(340px) rotate(-144deg);
+}
+#Forerunner{
+  transform: rotate(216deg) translate(340px) rotate(-216deg);
+}
+#Precursor{
+  transform: rotate(288deg) translate(340px) rotate(-288deg);
+}
+
+#result {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24;
+}
