@@ -1,7 +1,18 @@
+@font-face {
+  font-family: 'Halo';
+  src: url(/Users/bangoo/portfolio-projects/project/unit-1-project/font/Halo.ttf);
+}
+@font-face {
+  font-family: 'HaloOut';
+  src: url(/Users/bangoo/portfolio-projects/project/unit-1-project/font/Halo-Outline.ttf);
+}
 body {
-  background-image: url("https://i.imgur.com/QKP1sIG.jpeg");
+  background-image: url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/media_result_20230506_fdcd458c-0d0f-4bb0-b757-8479899ce6c4.png"), url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/pxfuel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'HaloOut';
+  font-size: 25px;
+  color:aqua
 }
 
 .circle-container {
