@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Halo';
-  src: url(/Users/bangoo/portfolio-projects/project/unit-1-project/font/Halo.ttf);
+  src: url(https://bangoo040993.github.io/unit-1-project/font/Halo.ttf);
 }
 @font-face {
   font-family: 'HaloOut';
-  src: url(/Users/bangoo/portfolio-projects/project/unit-1-project/font/Halo-Outline.ttf);
+  src: url(https://bangoo040993.github.io/unit-1-project/font/Halo-Outline.ttf);
 }
 h1 {
   background: linear-gradient(to bottom, black, gray);
@@ -14,7 +14,7 @@ h1 {
   font-weight: bolder;
 }
 body {
-  background-image: url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/backdrop.jpg");
+  background-image: url("https://bangoo040993.github.io/unit-1-project/img/backdrop.jpg");
   background-size: cover;
   font-family: 'HaloOut';
   font-size: 25px;
