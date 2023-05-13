@@ -20,44 +20,34 @@ function compareChoices() {
     if (player.currentChoice === computer.currentChoice) {
         return "It's a tie!";
     } else if (player.currentChoice === "Marine") {
-        if (computer.currentChoice === "Flood") {
-            return "You win!";
-        } else if (computer.currentChoice === "Precursor") {
+        if (computer.currentChoice === "Forerunner" || computer.currentChoice === "Precursor") {
             return "You win!";
         } else {
-            return "Computer wins! ";
+            return "Cortana wins!";
         }
     } else if (player.currentChoice === "Covenant") {
-        if (computer.currentChoice === "Marine") {
-            return "You win!";
-        } else if (computer.currentChoice === "Flood") {
+        if (computer.currentChoice === "Marine" || computer.currentChoice === "Precursor") {
             return "You win!";
         } else {
-            return "Computer wins!";
+            return "Cortana wins!";
         }
     } else if (player.currentChoice === "Flood") {
-        if (computer.currentChoice === "Precusor") {
-            return "You win!";
-        } else if (computer.currentChoice === "Forerunner") {
-            return "You win!";
+        if (computer.currentChoice === "Marine" || computer.currentChoice === "Covenant") {
+            return "You  win!";
         } else {
-            return "Computer wins!";
+            return "Cortana wins!";
         }
     } else if (player.currentChoice === "Forerunner") {
-        if (computer.currentChoice === "Covenant") {
-            return "You win!";
-        } else if (computer.currentChoice === "Marine") {
+        if (computer.currentChoice === "Flood" || computer.currentChoice === "Covenant") {
             return "You win!";
         } else {
-            return "Computer wins!";
+            return "Cortana wins!";
         }
     } else if (player.currentChoice === "Precursor") {
-        if (computer.currentChoice === "Forerunner") {
+        if (computer.currentChoice === "Flood" || computer.currentChoice === "Forerunner") {
             return "You win!";
-        } else if (computer.currentChoice === "Covenant") {
-            return "You win! ";
         } else {
-            return "Computer wins!";
+            return "Cortana wins!";
         }
     }
 }

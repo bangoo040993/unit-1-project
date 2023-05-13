@@ -6,13 +6,23 @@
   font-family: 'HaloOut';
   src: url(/Users/bangoo/portfolio-projects/project/unit-1-project/font/Halo-Outline.ttf);
 }
+h1 {
+  background: linear-gradient(to bottom, black, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Halo';
+  font-weight: bolder;
+}
 body {
-  background-image: url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/media_result_20230506_fdcd458c-0d0f-4bb0-b757-8479899ce6c4.png"), url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/pxfuel.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/backdrop.jpg"), url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/pxfuel.jpg");
   background-size: cover;
   font-family: 'HaloOut';
   font-size: 25px;
-  color:aqua
+  color: black;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
+  
 }
 
 .circle-container {
@@ -26,23 +36,30 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 120px;
+  width: 180px;
   height: 120px;
   margin: -60px;
   border-radius: none;
-  font-size: 16px;
+  font-size: 27px;
   text-align: center;
   line-height: 120px;
   border: none;
   cursor: pointer;
   background-color: transparent;
+  color: white;
+  font-family: 'Halo';
+}
+
+button img {
+  width: 100%;
+  height: 100%;
 }
 
 #Marine{
   transform: rotate(0deg) translate(340px) rotate(0deg);
 }
 #Covenant{
-  transform: rotate(72deg) translate(340px) rotate(-72deg);
+  transform: rotate(72deg) translate(322px) rotate(-72deg);
 }
 #Flood{
   transform: rotate(144deg) translate(340px) rotate(-144deg);
@@ -52,6 +69,7 @@ button {
 }
 #Precursor{
   transform: rotate(288deg) translate(340px) rotate(-288deg);
+
 }
 
 #result {
@@ -61,4 +79,13 @@ button {
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 24;
+  font-family: 'Halo';
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
