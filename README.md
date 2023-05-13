@@ -5,7 +5,7 @@
 
 
 
-## ![gameimage] (https://imgur.com/gallery/9PMHFQQ)
+## ![gameimage](https://imgur.com/gallery/9PMHFQQ)
 ### h3 
 ***ul***
 - I am lost 
