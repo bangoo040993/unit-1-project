@@ -4,13 +4,13 @@
 ### Techonologies used: Javascript, Html, CSS, Remove.bg
 
 ##### Future enchancement:
-- I was in a time crunch but i want to make the button transform translate to scale down accordingly to the display sizes and also along side with the image background. 
-- I also want to add a counter for for win losses and ties
-- add a display result that pull and image or gif of the associate race fighting each other
-- i kind of cheated by drawing the result of line pentagon i want to see if i could do it with just css alone? which should help with the scaling when using a different display
-- also add a logic or function that make sure the player dont win more than 5 times in a role. 
-- add an option to let two player to play
-- add more races but if i do itll probably make more sense if i do pokemon
+- I was in a time crunch, but I want to make the button transform by scaling down according to the display size and also alongside the background image.  
+- Additionally, I want to add a counter for wins, losses, and ties, as well as a display that pulls an image or gif of the associated races fighting each other.
+- I cheated by drawing the rules of the game on top of the image, and I want to see if I can achieve the same effect with just CSS, which should help with scaling when using a different display.
+- I also want to add a logic or function that ensures the player doesn't win more than five times in a row.
+- add an option to let two players play.
+- Finally, if I add more races, it will probably make more sense if I choose to use Pokemon instead of Halo races.
+- any ideas would be nice because it was fun. 
 
 
 

@@ -1,4 +1,4 @@
-//alert("dawg");
+
 const choices = ["Marine", "Covenant", "Flood", "Forerunner", "Precursor"]
 
 //computer choices  
