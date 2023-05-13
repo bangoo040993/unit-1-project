@@ -14,7 +14,7 @@ h1 {
   font-weight: bolder;
 }
 body {
-  background-image: url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/backdrop.jpg"), url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/pxfuel.jpg");
+  background-image: url("/Users/bangoo/portfolio-projects/project/unit-1-project/img/backdrop.jpg");
   background-size: cover;
   font-family: 'HaloOut';
   font-size: 25px;
